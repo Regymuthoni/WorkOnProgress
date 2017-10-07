@@ -1,0 +1,15 @@
+body{
+
+}
+.main{
+	background: #06F7C9;
+	width: 400px;
+	height: 700px;
+}
+header{
+	width: 400px;
+	height: 80px;
+	position: fixed;
+	background: #07997D;
+	border-radius: 5px;
+}

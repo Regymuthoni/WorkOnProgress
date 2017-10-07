@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	font-family: verdana,sans-serif;
+}
+.slideshow-container{
+	width: 800px;
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+
+	
+
+}
+img{
+	width: 800px;
+	height: 600px;
+}
+.inner{
+	display: flex;
+	position: absolute;
+	left: 0;
+}
+.next::after, .prev::after{
+	content: '>';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	background: #fff;
+	width: 30px;
+	height: 40px;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: sans-serif;
+	cursor: pointer;
+	opacity: 0.5;
+	transition: opacity 0.1s linear;
+
+
+}
+.prev::after{
+	left:0;
+	content: '<'
+}
+.next:hover{
+	background: #fff;
+}
